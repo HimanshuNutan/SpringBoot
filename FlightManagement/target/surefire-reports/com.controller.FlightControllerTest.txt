@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.controller.FlightControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 36.171 s <<< FAILURE! - in com.controller.FlightControllerTest
+getFlightbyId(com.controller.FlightControllerTest)  Time elapsed: 10.792 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "flightid"
+	at com.controller.FlightControllerTest.getFlightbyId(FlightControllerTest.java:53)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.controller.FlightControllerTest.getFlightbyId(FlightControllerTest.java:53)
+
